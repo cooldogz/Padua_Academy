@@ -1,0 +1,57 @@
+body {
+	background-color: #000000;
+	font-family:Chalkboard;
+	color:#ffff1a;
+	}
+	
+#navigation {
+padding: 0;
+margin: 0;
+}
+
+#navigation li {
+display:inline;
+float: left;
+}
+
+#navigation a, #navigation a:visited {
+	display: block;
+	width:200px;
+	border: 1px solid #ffff1a;
+	font-size: 0.8em;
+	text-align: center;
+	text-decoration: none;
+	color: #ffff1a;
+	}
+	
+
+<style>
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #000000;
+    width: 168px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+</style>
+
+
+#pic1 img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto }
+	
+#pic2 img {
+	box-shadow: 10px double #00284d;
+	}
+
